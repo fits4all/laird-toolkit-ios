@@ -11,7 +11,6 @@
 #import "UARTPeripheral.h"
 
 @interface ViewController : UITableViewController <UITextFieldDelegate, CBCentralManagerDelegate, UARTPeripheralDelegate>
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) IBOutlet UIButton *connectButton;
 @property (weak, nonatomic) IBOutlet UITextView *consoleTextView;
 @property (weak, nonatomic) IBOutlet UITextField *sendTextField;

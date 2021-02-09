@@ -175,7 +175,7 @@ typedef enum
 
 - (void) centralManagerDidUpdateState:(CBCentralManager *)central
 {
-    if (central.state == CBCentralManagerStatePoweredOn)
+    if (central.state == CBManagerStatePoweredOn)
     {
         [self.connectButton setEnabled:YES];
     }
